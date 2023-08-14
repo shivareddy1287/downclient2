@@ -8,7 +8,9 @@ function Mypdf() {
 
   const fetchDataFrom = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/dummy");
+      const response = await axios.get(
+        "https://dummydowanload1.azurewebsites.net/dummy"
+      );
       setDataBack(response.data);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -18,9 +20,12 @@ function Mypdf() {
   useEffect(() => {
     const fetchImage = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/get-image", {
-          responseType: "blob",
-        });
+        const response = await axios.get(
+          "https://dummydowanload1.azurewebsites.net/get-image",
+          {
+            responseType: "blob",
+          }
+        );
 
         const blobURL = URL.createObjectURL(response.data);
         setImageURL(blobURL);

@@ -221,7 +221,10 @@ function Main() {
     formData.append("image", file);
 
     try {
-      await axios.post("http://localhost:3000/profilepic", formData);
+      await axios.post(
+        "https://dummydowanload1.azurewebsites.net/profilepic",
+        formData
+      );
       console.log("Image uploaded successfully");
     } catch (error) {
       console.error("Error uploading image:", error);
@@ -246,11 +249,17 @@ function Main() {
 
     //coutning mission for trails
 
-    const res1 = await axios.post("http://localhost:3000/datafront", data1);
+    const res1 = await axios.post(
+      "https://dummydowanload1.azurewebsites.net/datafront",
+      data1
+    );
     console.log(res1);
-    const res = await axios.get("http://localhost:3000/downloaddata", {
-      responseType: "blob",
-    });
+    const res = await axios.get(
+      "https://dummydowanload1.azurewebsites.net/downloaddata",
+      {
+        responseType: "blob",
+      }
+    );
     const pdfBlob = new Blob([res.data], {
       type: "application/pdf",
     });
