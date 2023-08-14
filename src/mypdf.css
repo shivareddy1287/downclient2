@@ -1,0 +1,209 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-family: "Cambria";
+}
+
+.new-cont-img-name {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  font-family: "Cambria";
+  /* background-color: orangered; */
+}
+
+.img-contact-other-cont {
+  width: 30%;
+  margin: 0px;
+  min-height: 100vh;
+}
+.name-exp-cont {
+  width: 70%;
+}
+.img-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+.img-profile {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+.left-side-head {
+  color: black;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.left-side-conta-para1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 0px 0px 0px;
+}
+
+.left-side-conta-para {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px;
+}
+.left-side-edu-para1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 15px 0px 0px 0px;
+}
+.left-side-edu-para2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+}
+.left-side-edu-para3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px;
+}
+.hr-line-left {
+  border-width: 1px;
+  border-color: black;
+  margin: 2px 0px 0px 0px;
+}
+
+.left-side-ul-para {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 0px 0px -20px;
+}
+
+.name-head {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  margin: 30px 0px -4px 0px;
+}
+.market-para {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0px 0px 0px 0px;
+}
+.summary-para {
+  font-size: 20px;
+}
+.experience-head {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+.exp-bottom-hr-line {
+  border-width: 1px;
+  border-color: black;
+  margin: 2px 0px 15px 0px;
+}
+.job-position-head {
+  font-size: 25px;
+  margin: 2px 0px 2px 0px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.63);
+}
+.work-p1 {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.63);
+}
+.work-p2 {
+  font-size: 20px;
+
+  margin: 0px;
+}
+.work-p3 {
+  font-size: 20px;
+
+  margin: 0px;
+
+  text-align: justify;
+  text-justify: distribute;
+}
+
+.list-wrapper {
+  position: relative;
+}
+.list-item-wrapper {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  gap: 15px;
+}
+.list-item {
+  display: table-row;
+  vertical-align: middle;
+}
+
+.red-line {
+  background: black;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 6.5px;
+  top: 22.5px;
+  margin-right: 20px;
+}
+
+.circle {
+  width: 105px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  top: 7.5px;
+}
+
+.icons-email-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.email-icon-top {
+  margin-top: 8px;
+}
+.email-marign-0 {
+  margin: 0px;
+}
+
+/* utilities
+  utilities
+  utilities
+  utilities
+  utilities
+  utilities */
+
+.u-marign-top-small {
+  margin-top: 20px;
+}
+
+.padding-right-cont {
+  padding-right: 20px;
+}
+
+.padding-all-cont {
+  padding: 0px 35px 0px 35px;
+}
+
+.bullet-demo {
+  font-size: 30px;
+}
