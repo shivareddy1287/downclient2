@@ -44,6 +44,7 @@ function Mypdf() {
     <div>
       <h1>Shiva Aade</h1>
       <h1>Fast Downloader</h1>
+      <img src={imageURL} class="img-profile" alt="Uploaded" />
       {/* <div class="padding-all-cont">
         <div class="new-cont-img-name">
           <div class="img-cont">
