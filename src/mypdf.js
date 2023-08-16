@@ -42,7 +42,9 @@ function Mypdf() {
 
   return (
     <div>
-      <div class="padding-all-cont">
+      <h1>Shiva Aade</h1>
+      <h1>Fast Downloader</h1>
+      {/* <div class="padding-all-cont">
         <div class="new-cont-img-name">
           <div class="img-cont">
             {imageURL && (
@@ -167,7 +169,7 @@ function Mypdf() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
